@@ -1,0 +1,301 @@
+{
+  "numeric_cols": [
+    "rating_score",
+    "core_count",
+    "clock_speed_ghz",
+    "ram_gb",
+    "storage_gb",
+    "display_inches",
+    "res_width_px",
+    "res_height_px",
+    "refresh_rate_hz",
+    "battery_mah",
+    "charging_watt",
+    "rear_camera_count",
+    "front_camera_count",
+    "rear_camera_main_mp",
+    "front_camera_main_mp",
+    "battery_per_inch",
+    "camera_total_mp"
+  ],
+  "boolean_cols": [
+    "has_5g",
+    "has_nfc",
+    "has_ir_blaster",
+    "fast_charging",
+    "memory_card_supported"
+  ],
+  "categorical_cols": [
+    "smartphone_brand",
+    "processor_brand",
+    "processor_name",
+    "os_name",
+    "memory_card_type"
+  ],
+  "categorical_options": {
+    "smartphone_brand": [
+      "acer",
+      "ai+",
+      "alcatel",
+      "apple",
+      "blackzone",
+      "cmf",
+      "google",
+      "hmd",
+      "honor",
+      "infinix",
+      "iqoo",
+      "itel",
+      "lava",
+      "motorola",
+      "nothing",
+      "oneplus",
+      "oppo",
+      "peace",
+      "poco",
+      "realme",
+      "ringme",
+      "samsung",
+      "tecno",
+      "ulefone",
+      "vivo",
+      "xiaomi"
+    ],
+    "processor_brand": [
+      "apple",
+      "exynos",
+      "mediatek",
+      "snapdragon",
+      "tensor",
+      "unisoc"
+    ],
+    "processor_name": [
+      "apple a16",
+      "apple a17 pro",
+      "apple a18",
+      "apple a18 pro",
+      "apple a19",
+      "apple a19 pro",
+      "exynos 1280",
+      "exynos 1280 ",
+      "exynos 1330",
+      "exynos 1380",
+      "exynos 1480",
+      "exynos 1580",
+      "exynos 2200",
+      "exynos 2400",
+      "exynos 2400e",
+      "exynos 2500",
+      "exynos 850",
+      "mediatek dimensity 1080",
+      "mediatek dimensity 6020",
+      "mediatek dimensity 6080",
+      "mediatek dimensity 6100 plus",
+      "mediatek dimensity 6300",
+      "mediatek dimensity 6400",
+      "mediatek dimensity 6400 max",
+      "mediatek dimensity 7020",
+      "mediatek dimensity 7025",
+      "mediatek dimensity 7025 ultra",
+      "mediatek dimensity 7030",
+      "mediatek dimensity 7050",
+      "mediatek dimensity 7060",
+      "mediatek dimensity 7200",
+      "mediatek dimensity 7200 pro",
+      "mediatek dimensity 7200 ultra",
+      "mediatek dimensity 7300",
+      "mediatek dimensity 7300 e",
+      "mediatek dimensity 7300 energy",
+      "mediatek dimensity 7300 plus",
+      "mediatek dimensity 7300 pro",
+      "mediatek dimensity 7300 ultimate",
+      "mediatek dimensity 7300 ultra",
+      "mediatek dimensity 7300x",
+      "mediatek dimensity 7350 pro 5g",
+      "mediatek dimensity 7360 turbo",
+      "mediatek dimensity 7400",
+      "mediatek dimensity 7400 ultra",
+      "mediatek dimensity 7400x",
+      "mediatek dimensity 8020",
+      "mediatek dimensity 8050",
+      "mediatek dimensity 8200",
+      "mediatek dimensity 8200 ultimate",
+      "mediatek dimensity 8300 ultra",
+      "mediatek dimensity 8350",
+      "mediatek dimensity 8350 apex",
+      "mediatek dimensity 8350 extreme",
+      "mediatek dimensity 8350 ultimate",
+      "mediatek dimensity 8350 ultra",
+      "mediatek dimensity 8400 ultra",
+      "mediatek dimensity 8400-max",
+      "mediatek dimensity 8450",
+      "mediatek dimensity 9000",
+      "mediatek dimensity 9000 plus",
+      "mediatek dimensity 9200 plus",
+      "mediatek dimensity 9300",
+      "mediatek dimensity 9300 plus",
+      "mediatek dimensity 9400",
+      "mediatek dimensity 9400e",
+      "mediatek helio",
+      "mediatek helio g36",
+      "mediatek helio g50",
+      "mediatek helio g81",
+      "mediatek helio g81 ultra",
+      "mediatek helio g85",
+      "mediatek helio g88",
+      "mediatek helio g91",
+      "mediatek helio g99",
+      "snapdragon 4 gen 2 ae",
+      "snapdragon 4 gen2",
+      "snapdragon 4 gen2 ae",
+      "snapdragon 4s gen2",
+      "snapdragon 6 gen1",
+      "snapdragon 6 gen3",
+      "snapdragon 6 gen4",
+      "snapdragon 680",
+      "snapdragon 695",
+      "snapdragon 6s 4g gen1",
+      "snapdragon 6s gen1 4g",
+      "snapdragon 6s gen3",
+      "snapdragon 7 gen 4",
+      "snapdragon 7 gen1",
+      "snapdragon 7 gen3",
+      "snapdragon 7 gen4",
+      "snapdragon 7+ gen3",
+      "snapdragon 7s gen 2",
+      "snapdragon 7s gen 3",
+      "snapdragon 7s gen2",
+      "snapdragon 7s gen3",
+      "snapdragon 8 elite",
+      "snapdragon 8 elite for galaxy",
+      "snapdragon 8 gen 2",
+      "snapdragon 8 gen 3",
+      "snapdragon 8 gen2",
+      "snapdragon 8 gen3",
+      "snapdragon 888",
+      "snapdragon 8elite",
+      "snapdragon 8s gen3",
+      "snapdragon 8s gen4",
+      "tensor g3",
+      "tensor g4",
+      "tensor g5",
+      "unisoc 9863a",
+      "unisoc 98663a",
+      "unisoc sc9863a",
+      "unisoc sc9863a1",
+      "unisoc t2750",
+      "unisoc t603",
+      "unisoc t606",
+      "unisoc t612",
+      "unisoc t615",
+      "unisoc t7100",
+      "unisoc t7225",
+      "unisoc t7250",
+      "unisoc t760",
+      "unisoc t765",
+      "unisoc t8200",
+      "unisoc ums9230e"
+    ],
+    "os_name": [
+      "android",
+      "ios"
+    ],
+    "memory_card_type": [
+      "dedicated",
+      "hybrid",
+      "not_supported"
+    ]
+  },
+  "numeric_ranges": {
+    "rating_score": {
+      "min": 37.0,
+      "max": 97.0,
+      "median": 80.0
+    },
+    "core_count": {
+      "min": 1.0,
+      "max": 10.0,
+      "median": 8.0
+    },
+    "clock_speed_ghz": {
+      "min": 1.0,
+      "max": 4.47,
+      "median": 2.4
+    },
+    "ram_gb": {
+      "min": 2.0,
+      "max": 24.0,
+      "median": 8.0
+    },
+    "storage_gb": {
+      "min": 32.0,
+      "max": 2048.0,
+      "median": 128.0
+    },
+    "display_inches": {
+      "min": 3.75,
+      "max": 8.03,
+      "median": 6.7
+    },
+    "res_width_px": {
+      "min": 128.0,
+      "max": 2400.0,
+      "median": 1080.0
+    },
+    "res_height_px": {
+      "min": 160.0,
+      "max": 3168.0,
+      "median": 2400.0
+    },
+    "refresh_rate_hz": {
+      "min": 60.0,
+      "max": 165.0,
+      "median": 120.0
+    },
+    "battery_mah": {
+      "min": 2000.0,
+      "max": 21200.0,
+      "median": 5000.0
+    },
+    "charging_watt": {
+      "min": 5.0,
+      "max": 125.0,
+      "median": 44.0
+    },
+    "rear_camera_count": {
+      "min": 1.0,
+      "max": 3.0,
+      "median": 2.0
+    },
+    "front_camera_count": {
+      "min": 0.0,
+      "max": 2.0,
+      "median": 1.0
+    },
+    "rear_camera_main_mp": {
+      "min": 8.0,
+      "max": 200.0,
+      "median": 50.0
+    },
+    "front_camera_main_mp": {
+      "min": 5.0,
+      "max": 50.0,
+      "median": 13.0
+    },
+    "battery_per_inch": {
+      "min": 484.46153846153845,
+      "max": 3178.410794602699,
+      "median": 757.5757575757576
+    },
+    "camera_total_mp": {
+      "min": 13.0,
+      "max": 250.0,
+      "median": 66.0
+    }
+  },
+  "metrics": {
+    "mae": 3463.890118581678,
+    "rmse": 8042.1613073859235,
+    "r2": 0.8965733806283007
+  }
+}
